@@ -84,22 +84,22 @@ header nav .hamburger {
     margin-top: 60px;
 }
 
-#hero .hero-text {
+#hero .hero-article {
     width: 100%;
     text-align: center;
     line-height: 44px;
     padding: 20px;
 }
 
-#hero .hero-text h1 {
+#hero .hero-article h1 {
     font-size: 34px;
 }
 
-#hero .hero-text span {
+#hero .hero-article span {
     color: #59D5E0;
 }
 
-#hero .hero-text p {
+#hero .hero-article p {
     line-height: 28px;
 }
 
@@ -195,7 +195,7 @@ footer h1 {
     font-size: 25px;
 }
 
-footer .info p {
+footer .footer-article p {
     width: 90%;
 }
 
@@ -254,16 +254,16 @@ footer .copyright {
         margin-top: 0;
     }
 
-    #hero .hero-text, #hero .hero-image-card {
+    #hero .hero-article, #hero .hero-image-card {
         width: 50%;
     }
 
-    #hero .hero-text {
+    #hero .hero-article {
         text-align: left;
         line-height: 60px;
     }
 
-    #hero .hero-text h1 {
+    #hero .hero-article h1 {
         font-size: 48px;
     }
 
@@ -295,7 +295,7 @@ footer .copyright {
         flex-wrap: nowrap;
     }
 
-    footer .info {
+    footer .footer-article {
         width: 40%;
     }
 
@@ -314,7 +314,7 @@ footer .copyright {
         padding: 12px 70px;
     }
 
-    #hero .hero-text {
+    #hero .hero-article {
         padding: 80px;
     }
 
