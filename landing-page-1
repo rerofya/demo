@@ -34,7 +34,7 @@
                 <p>Toko online terlengkap dan termurah. Dan memiliki kurir pribadi yang siap mengantar kapanpun dan dimanapun, Dan pastinya Gratis Ongkir.</p>
             </div>
             <div class="hero-image-card">
-                <img src="img/toko.jpg" alt="Berkah Store" class="hero-image">
+                <img src="assets/img/landing-page-1-shop.jpg" alt="Berkah Store" class="hero-image">
             </div>
         </section>
 
@@ -59,7 +59,7 @@
                 <div class="aside-card">
                     <div class="background"></div>
                     <div class="aside-profile">
-                        <img src="img/toko.jpg" alt="Berkah Store">
+                        <img src="assets/img/landing-page-1-shop.jpg" alt="Berkah Store">
                         <h1>Berkah Store</h1>
                         <ul>
                             <li><a href="">
