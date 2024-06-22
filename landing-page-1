@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/landing-page-1.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Berkah Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="nav-title">Berkah Store</h1>
+            <ul>
+                <li><a href="#hero" class="nav-list">Home</a></li>
+                <li><a href="#contact" class="nav-list">Kontak Kami</a></li>
+                <li><a href="#" class="nav-login">Login</a></li>
+            </ul>
+            <!-- Hamburger -->
+             <svg xmlns="http://www.w3.org/2000/svg" width="28"  height="28"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="hamburger"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero">
+            <div class="hero-text">
+                <h1>Selamat Datang di<br><span>Berkah Store</span></h1>
+                <p>Toko online terlengkap dan termurah. Dan memiliki kurir pribadi yang siap mengantar kapanpun dan dimanapun, Dan pastinya Gratis Ongkir.</p>
+            </div>
+            <div class="hero-image-card">
+                <img src="img/toko.jpg" alt="Berkah Store" class="hero-image">
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <form class="contact-form">
+                <h1>Hubungi Kami</h1>
+                <div>
+                    <input type="text" placeholder="Judul" autocomplete="off" class="contact-input">
+                </div>
+                <div>
+                    <input type="email" placeholder="Email Address" autocomplete="off" class="contact-input">
+                </div>
+                <div>
+                    <textarea rows="5" placeholder="Pesan" class="contact-input"></textarea>
+                </div>
+                <div>
+                    <button class="contact-button">Kirim Pesan</button>
+                </div>
+            </form>
+            <aside class="contact-aside">
+                <div class="aside-card">
+                    <div class="background"></div>
+                    <div class="aside-profile">
+                        <img src="img/toko.jpg" alt="Berkah Store">
+                        <h1>Berkah Store</h1>
+                        <ul>
+                            <li><a href="">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.8"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+                                berkahstore@gmail.com
+                            </a></li>
+                            <li><a href="">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                                082274826474
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-card">
+            <div class="info">
+                <h1>Berkah Store</h1>
+                <p>Toko online terlengkap dan termurah. Dan memiliki kurir pribadi yang siap mengantar kapanpun dan dimanapun, Dan pastinya Gratis Ongkir.</p>
+            </div>
+            <div class="list">
+                <ul>
+                    <h1>Pages</h1>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#contact">Kontak Kami</a></li>
+                </ul>
+                <ul>
+                    <h1>Support</h1>
+                    <li><a href="">Forum Support</a></li>
+                    <li><a href="">Customer Service</a></li>
+                    <li><a href="">Help & FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>Copyright &copy; 2024 Berkah Store.</span>
+        </div>
+    </footer>
+</body>
+</html>
